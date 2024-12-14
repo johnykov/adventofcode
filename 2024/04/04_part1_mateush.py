@@ -42,8 +42,8 @@ def test(i,j,mat):
   return count
 
 
-# mat = [l.strip() for l in sys.stdin]
-mat = [l.strip() for l in open("input","r")]
+mat = [l.strip() for l in sys.stdin]
+# mat = [l.strip() for l in open("input","r")]
 # mat = [l.strip() for l in open("inputMissing","r")]
 # print(mat)
 count = 0

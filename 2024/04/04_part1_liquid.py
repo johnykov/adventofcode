@@ -1,5 +1,6 @@
-coords = {x+1j*y: c for y, r in enumerate(open('input')) for x, c in enumerate(r)}
-# coords = {x+1j*y: c for y, r in enumerate(open(0)) for x, c in enumerate(r)}
+# cat 2024/04/input | python3 2024/04/04_part1_liquid.py
+# coords = {x+1j*y: c for y, r in enumerate(open('input')) for x, c in enumerate(r)}
+coords = {x+1j*y: c for y, r in enumerate(open(0)) for x, c in enumerate(r)}
 g = lambda c: coords.get(c, "")
 
 s1 = s2 = 0
